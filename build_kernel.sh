@@ -1,8 +1,8 @@
 #!/bin/bash
 
 make clean && make mrproper
-export CROSS_COMPILE=$(pwd)/toolchain/aarch64-linux-android-4.9/bin/aarch64-linux-android-
-export CC=$(pwd)/toolchain/clang/bin/clang
+# export CROSS_COMPILE=/home/grahame/toolchains/aarch64-linux-android-4.9/bin/aarch64-linux-android-
+# export CC=$(pwd)/toolchain/clang/host/linux-x86/clang-r383902/bin/clang
 export CLANG_TRIPLE=aarch64-linux-gnu-
 export ARCH=arm64
 export ANDROID_MAJOR_VERSION=t
